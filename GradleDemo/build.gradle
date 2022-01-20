@@ -1,11 +1,12 @@
-plugins {
-    id 'java'
+allprojects {
+    group 'com.checkpt'
+    version '1.0-SNAPSHOT'
+
 }
 
-group 'com.checkpt'
-version '1.0-SNAPSHOT'
-
 subprojects {
+
+    apply plugin: 'java'
     repositories {
         mavenCentral()
     }
