@@ -1,6 +1,6 @@
-package com.checkpt.java8.demo.test;
+package com.checkpt.java8.demo.basics.test;
 
-import com.checkpt.java8.demo.interfaces.TestInterface;
+import com.checkpt.java8.demo.basics.interfaces.TestInterface;
 
 public class TestInterfaceImpl implements TestInterface {
 

@@ -1,14 +1,14 @@
-package com.checkpt.java8.demo.interfaces;
+package com.checkpt.java8.demo.basics.interfaces;
 
 @FunctionalInterface
-public interface TestInterface2 {
+public interface TestInterface {
 
-    void testFunction(int data);
+    void testFunction();
 //    void test1Function();
 
-    private void testPrivate(){
+    /*private void testPrivate(){
         System.out.println("Test Private Function");
-    }
+    }*/
 
     default void testDefault(){
         System.out.println("Test Private Function");

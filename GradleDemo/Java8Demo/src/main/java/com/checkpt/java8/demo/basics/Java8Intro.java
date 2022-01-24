@@ -1,7 +1,7 @@
-package com.checkpt.java8.demo;
+package com.checkpt.java8.demo.basics;
 
-import com.checkpt.java8.demo.interfaces.TestInterface;
-import com.checkpt.java8.demo.interfaces.TestInterface2;
+import com.checkpt.java8.demo.basics.interfaces.TestInterface;
+import com.checkpt.java8.demo.basics.interfaces.TestInterface2;
 
 import java.util.concurrent.ThreadLocalRandom;
 
