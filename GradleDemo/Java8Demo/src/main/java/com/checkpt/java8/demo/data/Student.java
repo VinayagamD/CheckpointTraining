@@ -1,10 +1,12 @@
 package com.checkpt.java8.demo.data;
 
+import org.jetbrains.annotations.NotNull;
+
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
 
-public class Student {
+public class Student implements Comparable<Student>{
     private String name;
     private int gradeLevel;
     private double gpa;
@@ -109,4 +111,14 @@ public class Student {
                 '}';
     }
 
+    @Override
+    public int compareTo(@NotNull Student s) {
+        int i = Double.compare(this.gpa,s.gpa);
+        if (i!=0)
+            return i;
+        i = this.name.compareTo(s.name);
+        if (i!=0)
+            return i;
+        return  Integer.compare(this.gradeLevel,s.gradeLevel);
+    }
 }
