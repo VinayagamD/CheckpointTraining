@@ -25,8 +25,6 @@ public class LambdaVariableScope {
         VariableScope scope = (data) ->{
             student.setName("Test Name");
         };
-//        student = new Student();
-
         HttpRequest request = HttpRequest.newBuilder()
                 .uri(URI.create("https://jsonplaceholder.typicode.com/posts"))
                 .build();

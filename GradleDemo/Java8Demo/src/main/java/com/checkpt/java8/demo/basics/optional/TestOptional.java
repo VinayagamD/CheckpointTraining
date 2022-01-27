@@ -13,7 +13,7 @@ public class TestOptional {
         // Optional Example Basics
         Optional<String> optionalString  = Optional.of("Java 8 class");
         Optional<String> optionalString2 = Optional.ofNullable(null);
-//        Optional<String> optionalString3 = Optional.of(null); //
+//        Optional<String> optionalString3 = Optional.of(null); // Null Pointer Exception is thrown
         Optional<String> optionalEmpty = Optional.empty();
         System.out.println(optionalString.isPresent());
         System.out.println(optionalEmpty.isPresent());
