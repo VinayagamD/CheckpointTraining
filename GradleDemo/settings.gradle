@@ -1,4 +1,5 @@
 rootProject.name = 'GradleDemo'
 include 'Java8Demo'
 include 'DateTimeExample'
+include 'Junit5'
 
