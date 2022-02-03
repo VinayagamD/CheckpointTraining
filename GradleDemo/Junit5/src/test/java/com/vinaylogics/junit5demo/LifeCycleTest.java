@@ -40,6 +40,18 @@ public class LifeCycleTest {
         System.out.println("Repeat test");
     }
 
+    @RepeatedTest(10)
+    public void testMethodRepeatWithInfo(RepetitionInfo repetitionInfo){
+        System.out.println("Repetition Info current count " +repetitionInfo.getCurrentRepetition() + " out of "+repetitionInfo.getTotalRepetitions());
+        System.out.println("Repeat test");
+    }
+
+    @RepeatedTest(value = 10, name ="Current method run {currentRepetition}" )
+    public void testMethodRepeatWithDocumentation(RepetitionInfo repetitionInfo){
+        System.out.println("Repetition Info current count " +repetitionInfo.getCurrentRepetition() + " out of "+repetitionInfo.getTotalRepetitions());
+        System.out.println("Repeat test");
+    }
+
 
     @AfterEach
     public void clean(){
