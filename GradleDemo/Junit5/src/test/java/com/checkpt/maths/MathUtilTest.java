@@ -9,6 +9,7 @@ import static org.junit.jupiter.api.Assertions.*;
  * This class helps to test BL of {@link MathUtil}
  */
 
+@TestInstance(TestInstance.Lifecycle.PER_CLASS)
 class MathUtilTest {
 
     private MathUtil testInstance;
