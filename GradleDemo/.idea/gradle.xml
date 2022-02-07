@@ -13,6 +13,7 @@
             <option value="$PROJECT_DIR$/DateTimeExample" />
             <option value="$PROJECT_DIR$/Java8Demo" />
             <option value="$PROJECT_DIR$/Junit5" />
+            <option value="$PROJECT_DIR$/Junit5/ParallelTest" />
           </set>
         </option>
       </GradleProjectSettings>

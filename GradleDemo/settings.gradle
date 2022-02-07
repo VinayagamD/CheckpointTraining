@@ -2,4 +2,6 @@ rootProject.name = 'GradleDemo'
 include 'Java8Demo'
 include 'DateTimeExample'
 include 'Junit5'
+include 'Junit5:ParallelTest'
+findProject(':Junit5:ParallelTest')?.name = 'ParallelTest'
 
