@@ -25,10 +25,15 @@ dependencies {
 test {
     useJUnitPlatform()
 
-    testLogging.showStandardStreams = true
+    testLogging.showStandardStreams = false
 
     testLogging {
         events "passed", "skipped", "failed"
+    }
+
+    afterTest { desc, result ->
+        def output = "Class name: ${desc.className}, Test name: ${desc.name},  (Test status: ${result.resultType})"
+        println( '\n' + output)
     }
 }
 
