@@ -16,6 +16,7 @@
             <option value="$PROJECT_DIR$/Junit5/MockitoIntegration" />
             <option value="$PROJECT_DIR$/Junit5/ParallelTest" />
             <option value="$PROJECT_DIR$/Junit5/RestApiIntegrationTest" />
+            <option value="$PROJECT_DIR$/OtherJDKFeatures" />
           </set>
         </option>
       </GradleProjectSettings>

@@ -8,4 +8,5 @@ include 'Junit5:MockitoIntegration'
 findProject(':Junit5:MockitoIntegration')?.name = 'MockitoIntegration'
 include 'Junit5:RestApiIntegrationTest'
 findProject(':Junit5:RestApiIntegrationTest')?.name = 'RestApiIntegrationTest'
+include 'OtherJDKFeatures'
 
