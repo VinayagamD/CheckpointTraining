@@ -6,4 +6,6 @@ include 'Junit5:ParallelTest'
 findProject(':Junit5:ParallelTest')?.name = 'ParallelTest'
 include 'Junit5:MockitoIntegration'
 findProject(':Junit5:MockitoIntegration')?.name = 'MockitoIntegration'
+include 'Junit5:RestApiIntegrationTest'
+findProject(':Junit5:RestApiIntegrationTest')?.name = 'RestApiIntegrationTest'
 
